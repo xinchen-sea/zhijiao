@@ -1,13 +1,12 @@
 
 
-#info(信息),truism(陈词滥调 /老生常谈 / 真理)
 site_name: 支教小结
 site_author: xinchen-sea
-site_description: ...
+site_description: 支教小结
 site_url: "https://github.com/xinchen-sea/zhijiao/"
 
 # repository(库) information
-repo_name: 'xinchen-sea/nonsense'
+repo_name: 'xinchen-sea/zhijiao'
 repo_url: 'https://github.com/xinchen-sea/zhijiao/'
 
 # 代码操作
