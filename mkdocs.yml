@@ -1,14 +1,14 @@
 
 
 #info(信息),truism(陈词滥调 /老生常谈 / 真理)
-site_name: xinchen-sea's truism
+site_name: 支教小结
 site_author: xinchen-sea
-site_description: 喜欢螺旋式上升的真理
-site_url: "https://github.com/xinchen-truism/"
+site_description: ...
+site_url: "https://github.com/xinchen-sea/zhijiao"
 
 # repository(库) information
 repo_name: 'xinchen-sea/nonsense'
-repo_url: 'https://github.com/xinchen-sea/note'
+repo_url: 'https://github.com/xinchen-sea/zhijiao/'
 
 # 代码操作
 edit_uri: edit/main/docs/
@@ -117,17 +117,7 @@ extra:
     actions:
       - accept
       - manage
-  homepage: https://xinchen-sea.github.io/
-  #社交链接
-  social:
-    - icon: fontawesome/brands/github
-      link: https://github.com
-    - icon: fontawesome/solid/rss
-      link: none
-    - icon: material/forum
-      link: https://www.cc98.org
-    - icon: fontawesome/solid/house
-      link: https://xinchen-sea.github.io/
+  homepage: https://xinchen-sea.github.io/zhijiao/
       
   # 语言切换
 #  alternate:
@@ -215,57 +205,9 @@ markdown_extensions:
           class: mermaid
           format: !!python/name:pymdownx.superfences.fence_code_format
 
-# 自定义 css 扩展
-extra_css:
-  - 'assets/css/table.css'   # 表格设置
-  - 'assets/css/custom.css'  # 外观设置
-  - 'assets/css/switch.css'  # 按钮设置
-  #- 'assets/css/shortcodes.css'  # 自定义设置(不知道为啥用不了)
-  - 'assets/css/fold_toc.css' # toc折叠
-  - 'assets/css/heti.css' # 中文排版样式
-  # - 'assets/css/counter.css' # 自定义标题顺序
-  - 'assets/css/galaxy.css'
-
-# 自定义 js 扩展
-extra_javascript:
-  - assets/js/mermaid.min.js
-  - assets/js/switch.js
-  - assets/js/click.js
-  - assets/js/titlechange.js
-  - assets/js/chase.js
-  - assets/js/mathjax.js
-  - assets/js/toc.js
-  - assets/js/heti.js
-  - assets/js/galaxy.js
-  - assets/js/canvas.js
-   # 支持数学公式，ref : https://squidfunk.github.io/mkdocs-material/reference/mathjax
-  - https://polyfill.io/v3/polyfill.min.js?features=es6
-  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
 
 nav:
-  - 首页:
-     - index.md
-     - 设置: settings.md
-     - 调试页: testpage.md
-  - 学习记录:
-     - learning/index.md
-     - 驾校:
-       - learning/drivinglicense/index.md
-       - 科目一: learning/drivinglicense/object1.md
-       - 科目二、三: learning/drivinglicense/object2&3.md
-       - 科目四: learning/drivinglicense/object4.md
-  - 小作文:
-      - daily/index.md
-      - 大学生存指北: daily/guide.md
-      - 离合压不稳，练腿去: daily/7.22morning.md
-  - 备忘录:
-      - tools/index.md
-      - Markdown: tools/Markdown.md
-      - MkDocs: tools/mkdocs.md
-      - LaTex: tools/LaTex.md
-      - Obsidian: tools/Obsidian.md
-      - reveal.js: tools/reveal-js.md
-  - 酱酱小窝: jiangjiang.md
+  - 支教小结: index.md
 
 
 
